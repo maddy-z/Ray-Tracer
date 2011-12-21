@@ -1,0 +1,15 @@
+./RayTracing.exe -input scene1_exponent_variations.txt -output Results/scene1_image.tga -size 1000 1000 -bounces 0 -weight 0.01
+./RayTracing.exe -input scene2_plane_sphere.txt -output Results/scene2_image.tga -size 1000 1000 -bounces 0 -weight 0.01
+./RayTracing.exe -input scene3_colored_lights.txt -output Results/scene3_image.tga -size 1000 1000 -bounces 0 -weight 0.01
+./RayTracing.exe -input scene4_reflective_sphere.txt -output Results/scene4_image_1.tga -size 1000 1000 -bounces 0 -weight 0.01
+./RayTracing.exe -input scene4_reflective_sphere.txt -output Results/scene4_image_2.tga -size 1000 1000 -bounces 1 -weight 0.01
+./RayTracing.exe -input scene4_reflective_sphere.txt -output Results/scene4_image_3.tga -size 1000 1000 -bounces 2 -weight 0.01
+./RayTracing.exe -input scene4_reflective_sphere.txt -output Results/scene4_image_4.tga -size 1000 1000 -bounces 3 -weight 0.01
+./RayTracing.exe -input scene5_transparent_bars.txt -output Results/scene5_image_1.tga -size 1000 1000 -bounces 0 -weight 0.01
+./RayTracing.exe -input scene5_transparent_bars.txt -output Results/scene5_image_2.tga -size 1000 1000 -bounces 1 -weight 0.01
+./RayTracing.exe -input scene5_transparent_bars.txt -output Results/scene5_image_3.tga -size 1000 1000 -bounces 2 -weight 0.01
+./RayTracing.exe -input scene5_transparent_bars.txt -output Results/scene5_image_4.tga -size 1000 1000 -bounces 3 -weight 0.01
+./RayTracing.exe -input scene5_transparent_bars.txt -output Results/scene5_image_5.tga -size 1000 1000 -bounces 10 -weight 0.01
+./RayTracing.exe -input scene6_transparent_sphere_1.0.txt -output Results/scene6_image_1.0.tga -size 1000 1000 -bounces 5 -weight 0.01
+./RayTracing.exe -input scene7_transparent_sphere_1.1.txt -output Results/scene7_image_1.1.tga -size 1000 1000 -bounces 5 -weight 0.01
+./RayTracing.exe -input scene8_transparent_sphere_2.0.txt -output Results/scene8_image_2.0.tga -size 1000 1000 -bounces 5 -weight 0.01

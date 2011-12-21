@@ -1,0 +1,3 @@
+./raytracing.exe -input scene6_transparent_sphere_1.0.txt -output Results/scene6_image_1.0.tga -size 1000 1000 -bounces 5 -weight 0.01
+./raytracing.exe -input scene7_transparent_sphere_1.1.txt -output Results/scene7_image_1.1.tga -size 1000 1000 -bounces 5 -weight 0.01
+./raytracing.exe -input scene8_transparent_sphere_2.0.txt -output Results/scene8_image_2.0.tga -size 1000 1000 -bounces 5 -weight 0.01
